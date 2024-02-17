@@ -1,0 +1,26 @@
+A) Temel Türler & Null Güvenliği
+
+- `val` ile `var` arasındaki fark nedir?
+
+`var` degiskenler, her seferinde degistirebildigimiz degiskenlerdir ancak `val` degeri yalnizca okunabilen set edilemeyen degiskenlerdir.
+
+
+- Bir `var` değişkeni `val` gibi davranmasını nasıl sağlayabiliriz `val` kelimesini kullanmadan? Bunu neden yapmak isteriz? Örnek bir senaryo verin.
+
+`var` ile`val` arasindaki performans farki yok denecek kadar az olmasina ragmen(multithread kullandigimizda val daha performansli kaliyor) `val` daha maaliyetlidir. Bundan dolayi direkt val kullanmak yerine eger var`in set`ini private yaparsam benim icin daha uygundur ayrica bu sayede class`in icine bu degerin deger atamasini sonradan yapmak isteyebilirim bu yuzden `var` olmasi zorunludur ancak bu class`in disinda degerin baska yerde degismesini istemeyebilirim. 
+	ex:
+		 class UserFile{
+		var fileName:String ="Elifs"
+		private set
+
+		fun user_account(){
+		fileName = "elifsimsek12"
+		}
+	       }
+
+
+	
+
+
+
+
