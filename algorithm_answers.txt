@@ -19,7 +19,9 @@ A) Temel Türler & Null Güvenliği
 	       }
 
 
-	
+- "Değişmez" (Immutable) ve "Salt Okunur" (ReadOnly) kavramlarını açıklayın. `val` değişkenler neden aslında "değişmez" değil de "salt okunur" olarak açıklanmalıdır?
+
+Immutable, degeri asla degismeyen degiskendir. ReadOnly ise degeri yalnizca okunabilen set edilemeyen degiskendir. "val"in da readOnly olmasinin sebebi icerisinde degistirebilir degiskenleri(var yapisindaki) icerebilir olmasidir.
 
 
 
