@@ -27,7 +27,9 @@ Immutable, degeri asla degismeyen degiskendir. ReadOnly ise degeri yalnizca okun
 
 Bir esitlik olusturdugumuzda esitligin karsi tarafina atadigimiz degerin tipini vermesek bile IDE`nin degisken tipini belirlemesidir.Genellikle kodumuzun netligini saglayarak diger developerlar icin de daha anlasilabilirligini saglamak icin kullaniriz.Ornegin biz bir  " var sira " tanimladigimizda sira sayisinin int ile tanimlanmasini biz bilmemize ragmen IDE bunu bilemez ve ayrica diger developerlar icin de bir anlam karisikligina sebep olabilir.
 
+5) Kotlin'de tüm değişkenlerin sınıf olarak bulunması, "ilkel tip" (primitive type) olmadıkları anlamına gelir mi? Arka planda neler oluyor?
 
+Kotlin`de primitive olarak bildigimiz class gibi gozuken degisken turleri, ozel optimasyonlarla bytecode`a cevrilirken yine primitive olarak cevriliyorlar.(Bu bir tip donusumu degil ki aslinda Kotlin `de nesne tabanli bir programlama tipi oldugu icin dusununce bu sekilde olmasi da mantikli bir hal aliyor.)
 
 
 
