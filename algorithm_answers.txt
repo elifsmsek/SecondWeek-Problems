@@ -39,5 +39,29 @@ Degiskenlerin ve ifadelerin turlerini derleme zamaninda kontrol eder ve turlerin
 
 Nullable aslinda deger alabilir ya da almayabilir anlamina gelmektedir.Nullable yapabilmek icin de "?" koymamiz yeterlidir.
 
+8) "Null Güvenliği" (Null Safety) kavramını açıklayın.
+
+Null Safety, null referans hatalarını önlemek veya azaltmak için kullanılir ve null guvenligi bazi ozelliklere gore saglanir.
+	Bunlar Nullable(null olabilen) ve Non-nullable(null olamayan) turler, nullable bir değişkene erişilmeden önce null kontrolü yapılması ve  null güvenliğini sağlamak için ?., ?:, !!. gibi operatörler sağlar. Bu operatörlerle null değerlerin güvenli bir şekilde kullanılması ve kontrol edilmesi sağlanır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
