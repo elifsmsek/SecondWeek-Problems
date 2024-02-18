@@ -44,6 +44,9 @@ Nullable aslinda deger alabilir ya da almayabilir anlamina gelmektedir.Nullable 
 Null Safety, null referans hatalarını önlemek veya azaltmak için kullanılir ve null guvenligi bazi ozelliklere gore saglanir.
 	Bunlar Nullable(null olabilen) ve Non-nullable(null olamayan) turler, nullable bir değişkene erişilmeden önce null kontrolü yapılması ve  null güvenliğini sağlamak için ?., ?:, !!. gibi operatörler sağlar. Bu operatörlerle null değerlerin güvenli bir şekilde kullanılması ve kontrol edilmesi sağlanır.
 
+9) Bir değişkene null değer atanır ve tip belirtilmezse Kotlin bu değişkeni nasıl yorumlar?
+ Kotlin bu değişkeni otomatik olarak nullable (null kabul eden) bir tür olarak yorumlar. Kotlin'de, bir değişkenin nullable olup olmadığı, tür belirtmeden önce ona atanabilecek bir null değerine bağlıdır.
+
 
 
 
