@@ -31,6 +31,10 @@ Bir esitlik olusturdugumuzda esitligin karsi tarafina atadigimiz degerin tipini 
 
 Kotlin`de primitive olarak bildigimiz class gibi gozuken degisken turleri, ozel optimasyonlarla bytecode`a cevrilirken yine primitive olarak cevriliyorlar.(Bu bir tip donusumu degil ki aslinda Kotlin `de nesne tabanli bir programlama tipi oldugu icin dusununce bu sekilde olmasi da mantikli bir hal aliyor.)
 
+6) "Tip Güvenliği" (Type Safety) kavramını açıklayın.
+
+Degiskenlerin ve ifadelerin turlerini derleme zamaninda kontrol eder ve turlerin birbirleriyle karslastirilmasi durumunda error verir.Ayni zamanda nullSafety de saglayarak NullPointerException gibi hatalari onler ve ayrica uygun kosullarda degiskenlerin turuni de otomatik olarak gosterebilir.
+
 
 
 
