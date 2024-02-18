@@ -35,6 +35,9 @@ Kotlin`de primitive olarak bildigimiz class gibi gozuken degisken turleri, ozel 
 
 Degiskenlerin ve ifadelerin turlerini derleme zamaninda kontrol eder ve turlerin birbirleriyle karslastirilmasi durumunda error verir.Ayni zamanda nullSafety de saglayarak NullPointerException gibi hatalari onler ve ayrica uygun kosullarda degiskenlerin turuni de otomatik olarak gosterebilir.
 
+7) Bir değişkeni nullable yapmak için ne yapmalıyız?
+
+Nullable aslinda deger alabilir ya da almayabilir anlamina gelmektedir.Nullable yapabilmek icin de "?" koymamiz yeterlidir.
 
 
 
