@@ -48,6 +48,9 @@ Null Safety, null referans hatalarını önlemek veya azaltmak için kullanılir
  Kotlin bu değişkeni otomatik olarak nullable (null kabul eden) bir tür olarak yorumlar. Kotlin'de, bir değişkenin nullable olup olmadığı, tür belirtmeden önce ona atanabilecek bir null değerine bağlıdır.
 
 
+10) İlkel bir değişkenin nullable olması ile null değer alamaması arasında bellek yönetimi açısından nasıl farklar vardır?
+
+ Non-nullable ilkel değişkenler, daha az bellek kullanımı ve daha basit bellek yönetimi sağlarken, nullable ilkel değişkenler daha fazla bellek kullanımı ve karmaşıklık getirebilir. Bu nedenle, non-nullable değişkenlerin kullanımı genellikle tercih edilir, ancak bazı durumlarda nullable değişkenlerin ihtiyacı karşılaması gerekebilir.
 
 
 
