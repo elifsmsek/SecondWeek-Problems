@@ -59,12 +59,20 @@ Bir degisken primitive olsa bile "nullable?" bir deger aliyorsa, bu degiskenin c
 		- Degiskenin kapladigi alani, 
 		-Erisim hizinin degistirir.
 		-Referans kontrolunde farkli sonuc almamiza neden olur.
+12) Nullable bir değişkenle çalışırken hangi operatörleri kullanırız? Bu operatörlerin kullanım farkları nelerdir? Hangisini ne zaman kullanmak daha anlamlıdır?
 
+ Nullable bir değişkenin null olup olmadığını kontrol etmek için null operatörü kullanılır. Bu operatör, değişkenin null olup olmadığını belirler ve buna göre işlem yapmamızı sağlar. 
+		val str: String? = null
+		if (str != null) {
+   	 		println(str.length) 
+		}
 
+Elvis operatörü, nullable bir değişkenin null olması durumunda varsayılan bir değer atamak için kullanılır. Bu operatör, değişkenin null olup olmadığını kontrol eder; null ise, belirtilen varsayılan değeri döndürür.
 
+		val strLength = str?.length ?: 4
 
-
-
+Safe call operatörü, nullable bir değişkene güvenli bir şekilde erişmek için kullanılır. Bu operatör, değişken null değilse, normal şekilde erişimi sağlar; ancak değişken null ise, hemen null döndürür ve sonraki işlemleri engeller.
+		val strLength = str?.length
 
 
 
