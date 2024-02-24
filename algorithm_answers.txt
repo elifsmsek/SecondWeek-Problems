@@ -97,3 +97,9 @@ Bunlarin ikisi de ondalikli sayilari temsil etmek icin kullanilsa da Single prec
 
 Ikisinde de nokta (.) kullanilmasina ragmen dikkat edilmesi gerekilen yer, uygulamamizi yaparken hangi dili baz alarak yazdigimizdir.Yani ornegin,yurt disindan dolar gibi para birimlerini kullanarak bir app gelistiriyorsak ondalik ayiraci olarak oranin kurallarina ozgun olarak nokta(.) kullanmamiz gerekirken , Turkiye`de ondalik ayiraci yaparken virgul kullanmamizdir ve bu uygulamamizin crash olmasina sebep olabilir:) .
 
+6) Double ve Float değişkenler ondalık kısımda kaç basamağa kadar işlem yaparlar? Bu sınırın üzerinde gelen ondalık bilgileri için nasıl davranırlar?
+
+Double veri tipi, 15-16 basamağa kadar kesinlik sağlar.
+Float veri tipi ise, 6-7 basamağa kadar kesinlik sağlar.
+
+Ancak burada onemli olan sınırlarin üzerinde gelen ondalık bilgileri icin yuvarlama ve kesme islemine ugrarlar.Dolayısıyla, ondalık kısımda çok büyük veya çok küçük değerlerle çalışırken, veri tiplerinin sınırlarını göz önünde bulundurmak ve bu sınırları aşan değerlerin nasıl işleneceğini anlamak önemlidir.
