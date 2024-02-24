@@ -89,6 +89,10 @@ Type inference sayesinde esitligin,IDE otomatik bir sekilde esitligin sag tarafi
 
 Cunku Long degisenlerde `l` kullanimi kodumuzu yazarken anlam karisikligina ve kodun iyi bir sekilde anlasilamamasina sebep olabilir.(1 veya `I`gibi anlasilabilir.)
 
+4) Tek duyarlıklı (Single precision) ve Çift duyarlıklı (Double precision) kavramlarını açıklayın.
+
+Bunlarin ikisi de ondalikli sayilari temsil etmek icin kullanilsa da Single precision yani float kavrami 32 bitlik bir veri turu olup ondalikli kesirleri daha kabaca yani küçük hassasiyet gerektiren durumlar için kullanılırken, Double precision yani double kavrami ise 64 bitlik bir veri turu olup daha yüksek hassasiyet ve daha geniş bir değer aralığı gerektiren durumlar için kullanılır.
+
 
 
 
