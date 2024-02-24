@@ -75,7 +75,11 @@ Safe call operatörü, nullable bir değişkene güvenli bir şekilde erişmek i
 		val strLength = str?.length
 
 
+B) Sayılar	
 
+1) Kaç farklı tipte "number" sınıfı miras alan "alt sınıf" (child class) vardır? Bunların değer aralıkları neden önemlidir?
+
+ Kotlin'deki "number" sınıfını miras alan alt sınıflar arasında genellikle dört temel tip bulunmaktadır: Byte, Short, Int ve Long.Bunlarin deger araliklarinin onemli olmasinin sebebi programimiza ihtiyaclarina uygun olarak performans,bellek kullanimi ve dogrulugu acisindan kritiktir. 
 
 
 
