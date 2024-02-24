@@ -124,7 +124,49 @@ Ornek: val hexNumber: Int = 0x2A //2A(16 tabaninda 42) degerini temsil eder.
 
 Ornek: val binaryNumber: Int = 0b101010 //101010 (2 tabanında 42) değerini temsil eder.
 
+8) Sekizlik (Octal) değişkenler Java'da nasıl tanımlanır? Kotlin'de Sekizlik değişken tanımlanabilir mi?
 
+	Java`da tanimlarken asdece basina 0 eklemeliyizdir.Depolama icin kullanilan veri tipi int `tir.
+
+ Yöntem(Parameters): Bir dizeye dönüştürülmesi gereken tamsayı türünden tek bir parametre sayısını kabul eder.
+
+ Donus degeri(Return Value): Fonksiyon, tamsayı bağımsız değişkeninin dize temsilini 8 tabanında işaretsiz bir tam sayı olarak döndürür.
+
+Ornek: 
+	import java.io.*;
+ 
+class GFG {
+    public static void main(String[] args)
+    {
+        // Variable Declaration
+        int a;
+ 
+        // storing normal integer value
+        a = 20;
+        System.out.println("Value of a: " + a);
+ 
+        // storing octal integer value
+        // just add 0 followed octal representation
+        a = 024;
+        System.out.println("Value of a: " + a);
+ 
+        // convert octal representation to integer
+        String s = "024";
+        int c = Integer.parseInt(s, 8);
+        System.out.println("Value of c: " + c);
+ 
+        // get octal representation of a number
+        int b = 50;
+        System.out.println(
+            "Octal Representation of the number " + b
+            + " is: " + Integer.toOctalString(b));
+    }
+}
+
+Kotlin`de ise octal literals Kotlin tarafindan desteklenmez.Bu yuzden ayni sayiyi ondalikli olarak tanimlamak gerekir.
+
+val octalString = "1234"
+val decimalNumber = octalString.toInt(8)  // Bu, octal 1234 sayısını ondalık              					  //668 sayısına dönüştürür.
 
 
 
