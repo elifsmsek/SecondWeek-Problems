@@ -168,5 +168,17 @@ Kotlin`de ise octal literals Kotlin tarafindan desteklenmez.Bu yuzden ayni sayiy
 val octalString = "1234"
 val decimalNumber = octalString.toInt(8)  // Bu, octal 1234 sayısını ondalık              					  //668 sayısına dönüştürür.
 
+9) "Geleneksel Notasyon" (Conventional Notation) gösterimi nasıl yapılır?
 
+Kotlin`de değişkenlerin veya fonksiyonların isimlendirilmesi ve kodun genel düzeni gibi konularda belirli standartlar vardir.
+Bunlarin bircok gosterimi olmasina ragmen bunlar kodda bizden istenene gore sekillenirler. 
+Ornek: 
+	const val MAX_COUNT = 8
+	val mutableCollection: MutableSet<String> = HashSet()
+	class C {
+    private val _elementList = mutableListOf<Element>()
+
+    val elementList: List<Element>
+         get() = _elementList
+}
 
