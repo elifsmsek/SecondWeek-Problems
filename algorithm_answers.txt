@@ -93,7 +93,7 @@ Cunku Long degisenlerde `l` kullanimi kodumuzu yazarken anlam karisikligina ve k
 
 Bunlarin ikisi de ondalikli sayilari temsil etmek icin kullanilsa da Single precision yani float kavrami 32 bitlik bir veri turu olup ondalikli kesirleri daha kabaca yani küçük hassasiyet gerektiren durumlar için kullanılırken, Double precision yani double kavrami ise 64 bitlik bir veri turu olup daha yüksek hassasiyet ve daha geniş bir değer aralığı gerektiren durumlar için kullanılır.
 
+5) Double ve Float değişkenlerle çalışırken ondalık ayıracı olarak hangi işaretler kullanılır? Bu ayıraçların kullanımında nelere dikkat etmek gerekir?
 
-
-
+Ikisinde de nokta (.) kullanilmasina ragmen dikkat edilmesi gerekilen yer, uygulamamizi yaparken hangi dili baz alarak yazdigimizdir.Yani ornegin,yurt disindan dolar gibi para birimlerini kullanarak bir app gelistiriyorsak ondalik ayiraci olarak oranin kurallarina ozgun olarak nokta(.) kullanmamiz gerekirken , Turkiye`de ondalik ayiraci yaparken virgul kullanmamizdir ve bu uygulamamizin crash olmasina sebep olabilir:) .
 
