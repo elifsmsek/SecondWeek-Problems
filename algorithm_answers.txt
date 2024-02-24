@@ -81,7 +81,9 @@ B) Sayılar
 
  Kotlin'deki "number" sınıfını miras alan alt sınıflar arasında genellikle dört temel tip bulunmaktadır: Byte, Short, Int ve Long.Bunlarin deger araliklarinin onemli olmasinin sebebi programimiza ihtiyaclarina uygun olarak performans,bellek kullanimi ve dogrulugu acisindan kritiktir. 
 
+2) Eğer bir değişkene tip belirtimi yapılmaz ve bir değer atanırsa, Kotlin tip çıkarımını nasıl yapar?
 
+Type inference sayesinde esitligin,IDE otomatik bir sekilde esitligin sag tarafina bakarak degiskenin tipini belirlemesi ama sayisal degerler icin.
 
 
 
