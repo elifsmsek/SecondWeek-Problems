@@ -85,8 +85,9 @@ B) Sayılar
 
 Type inference sayesinde esitligin,IDE otomatik bir sekilde esitligin sag tarafina bakarak degiskenin tipini belirlemesi ama sayisal degerler icin.
 
+3) Float değişken oluştururken `F` ve `f` harfleri varken, Long değişken oluştururken neden küçük `l` harfi yoktur?
 
-
+Cunku Long degisenlerde `l` kullanimi kodumuzu yazarken anlam karisikligina ve kodun iyi bir sekilde anlasilamamasina sebep olabilir.(1 veya `I`gibi anlasilabilir.)
 
 
 
