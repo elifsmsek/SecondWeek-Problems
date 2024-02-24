@@ -103,3 +103,28 @@ Double veri tipi, 15-16 basamağa kadar kesinlik sağlar.
 Float veri tipi ise, 6-7 basamağa kadar kesinlik sağlar.
 
 Ancak burada onemli olan sınırlarin üzerinde gelen ondalık bilgileri icin yuvarlama ve kesme islemine ugrarlar.Dolayısıyla, ondalık kısımda çok büyük veya çok küçük değerlerle çalışırken, veri tiplerinin sınırlarını göz önünde bulundurmak ve bu sınırları aşan değerlerin nasıl işleneceğini anlamak önemlidir.
+
+7) Ondalık(Decimal), Onaltılık (Hexadecimal) ve İkilik (Binary) değişkenleri Kotlin'de nasıl tanımlayabilirsiniz?
+
+ Ondalık(Decimal):
+
+	Kotlin'de varsayılan olarak ondalık sayıları anladığı bir sayı biçimi var oldugundan Ondalık(Decimal) sayilarda Int veya Double gibi veri tiplerini direktmen herhangi bir on ek eklemeden kullanilabilir.
+
+Ornek: val pi :Double= 3.14159
+
+ Onaltılık (Hexadecimal):
+	
+	Onaltılık sayılar, "0x" veya "0X" ön ekini kullanarak tanımlanır ve hexadecimal sayı sistemindeki değerleri ifade ederler.
+
+Ornek: val hexNumber: Int = 0x2A //2A(16 tabaninda 42) degerini temsil eder.
+
+ İkilik (Binary):
+
+	İkilik sayılar, "0b" veya "0B" ön ekini kullanarak tanımlanır ve binary sayı sistemindeki değerleri ifade ederler.
+
+Ornek: val binaryNumber: Int = 0b101010 //101010 (2 tabanında 42) değerini temsil eder.
+
+
+
+
+
