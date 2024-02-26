@@ -235,6 +235,21 @@ Bunlar: ve(&) , veya(|) , xor(^) , Tersi Alma (~),Kaydırma Operatörleri (<< ve
 
 Bu operatörler, özellikle düşük seviyeli programlamada, veri işleme ve optimizasyon gibi alanlarda kullanılır. Örneğin, bit düzeyinde işlemler yapılarak veri sıkıştırma, veri şifreleme veya performans optimizasyonu gibi işlemler gerçekleştirilebilir.
 
+14) Kotlin'de büyük sayılarla çalışırken hangi ek türlerden yararlanılır ve bu türlerin sınırları nelerdir?
+
+Byte: Boyutu 8 bit olup -128 ile 127 arasında değer alır.
+
+Short: Boyutu 16 bit olup -32768 ile 32767 arasında değer alır
+
+Int: Boyutu 32 bit olup -2,147,483,648 (-²³¹) ile 2,147,483,647 (²³¹ -1) arasında değer alır.
+
+Long: Boyutu 64 bit olup -9,223,372,036,854,775,808 (-²⁶³) ile 9,223,372,036,854,775,807 (²⁶³ -1) arasında değer alır.
+
+Float: Boyutu 32 bit olup ondalıklı sayılar için kullanılır. Virgülün solu 24 bit sağı 8 bit’tir. 6–7 onlu basamaklıdır.
+
+Double: Boyutu 64 bit olup ondalıklı sayılar için kullanılır.Virgülün solu 53 bit sağı 11 bit’tir. 15–16 onlu basamaklıdır.
+
+
 
 
 
