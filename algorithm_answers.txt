@@ -227,7 +227,13 @@ Toplama (+), Çıkarma (-), Çarpma (*), Bölme (/), Mod (%),
 Eşitlik (==),eşit değil (!=), büyüktür (>), küçüktür (<), büyük eşittir (>=),
 küçük eşittir (<=)
 
+13) Bit düzeyinde operatörler (Bitwise operators) nelerdir? Ne amaçla kullanılır? Kotlin'de bunları nasıl kullanabilirsiniz?
 
+	Bit düzeyinde operatörler, sayıları bit seviyesinde manipüle etmek için kullanılan operatörlerdir. Bu operatörler, her bir bitin (0 veya 1) üzerinde doğrudan işlemler gerçekleştirir.
+
+Bunlar: ve(&) , veya(|) , xor(^) , Tersi Alma (~),Kaydırma Operatörleri (<< ve >>)`dir
+
+Bu operatörler, özellikle düşük seviyeli programlamada, veri işleme ve optimizasyon gibi alanlarda kullanılır. Örneğin, bit düzeyinde işlemler yapılarak veri sıkıştırma, veri şifreleme veya performans optimizasyonu gibi işlemler gerçekleştirilebilir.
 
 
 
