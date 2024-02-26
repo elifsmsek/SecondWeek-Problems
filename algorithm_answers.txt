@@ -306,5 +306,35 @@ UInt,UInt,UShort,ULong
 
  işaretsiz 64-bit tamsayıyı temsil etmek için ULong türünü kullanilir.
 
+6) "İşaretsiz" değişkenlerin kullanım amaçları nelerdir?
+
+a- Bellek Yönetimi: Bellek kullanımını optimize etmek için işaretsiz değişkenler kullanılabilir. Örneğin, bir dizi pozitif indeksi temsil ederken işaretsiz tamsayılar kullanmak, bellek kullanımını azaltabilir.
+
+	val arraySize: UInt = 100u
+	val array = IntArray(arraySize.toInt())
+
+b-Bit seviyesinde operasyonlar: Bit düzeyinde operasyonlar yaparken işaretsiz değişkenler kullanılabilir.
+ Örneğin, bir verinin belli bir bit aralığındaki değerlerini işaretlemek veya işaretsiz tamsayıların bit seviyesinde operasyonlarını gerçekleştirmek için işaretsiz değişkenler kullanılabilir.
+
+	val mask: UByte = 0b00001111u // Son 4 biti işaretle
+	val value: UByte = 0b10101010u
+	val maskedValue = value and mask
+
+c-Dosya işlemleri: Dosya içeriğini işlerken veya dosya işaretçilerini yönetirken işaretsiz değişkenler kullanılabilir.
+ Özellikle dosya boyutu, dosya konumu gibi değerler işaretsiz tamsayılarla temsil edilebilir
+
+	val fileSize: ULong = 1024uL * 1024uL * 10uL // 10 MB
+
+d-Veri işleme: Veri analizi veya işleme uygulamalarında, işaretsiz değişkenler kullanılabilir. Örneğin, piksel değerleri, işaretli olmayan renk kodları gibi pozitif değerlerle temsil edilen veriler işaretsiz değişkenlerle saklanabilir.
+
+	val pixelColor: UInt = 0xFF00FFu
+
+
+
+
+
+
+
+
 
 
