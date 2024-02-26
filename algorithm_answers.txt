@@ -217,9 +217,10 @@ println(array1 === array3) // true, çünkü aynı bellek konumunu işaretediyor
 	Ancak bu deger aralilari disindaki `byte` degerleri her zaman farkli bellek adreslerinde ayrilir.Bellekte farkli konmlarda saklanmasi gerektigi anlamina gelir.
 
 
+12) Sayısal değişkenlerde hangi matematiksel operatörler kullanılabilir?
 
-
-
+Toplama (+), Çıkarma (-), Çarpma (*), Bölme (/), Mod (%),
+ Artırma (++) ,Azaltma (--)
 
 
 
