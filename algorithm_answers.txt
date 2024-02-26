@@ -350,10 +350,14 @@ Işlemlerin sonucunu kontrol etmek
 
 Gerektiğinde, işaretsiz değişkenlerin taşıyabileceği maksimum değeri aşmayacak şekilde işlemleri kontrol etmek için ekstra kodlama yapılabilir. Örneğin, işaretsiz değişkenlerle yapılan işlemler öncesinde, işlem sonucunun sınırlarını kontrol etmek için koşullar eklemek gibi.
 
+8)"İşaretsiz" değişkenlerin sınırlamaları nelerdir?
 
+ Veri türünün boyutuna bağlı olarak belirli bir bit sayısını temsil etmesi.
+ Örneğin, UInt veri türü 32 bit (4 byte) uzunluğunda bir işaretsiz tamsayıyı temsil ederken, UShort veri türü 16 bit (2 byte) uzunluğunda bir işaretsiz tamsayıyı temsil eder.
 
+ Sıfırdan başlayarak maksimum değerlerine kadar olan tam sayı değerlerini temsil ederler. Örneğin, UByte veri türü 0 ile 255 arasındaki tam sayı değerlerini alabilirken, UInt veri türü 0 ile 2^32 - 1 arasındaki tam sayı değerlerini alabilir.
 
-
+ İşaretsiz değişkenlerin en küçük değeri her zaman sıfırdır. Negatif değerler içermezler ve sıfır veya pozitif değerlerle temsil edilirler.
 
 
 
