@@ -291,9 +291,10 @@ C) İşaretsiz Sayılar
 
 	Örnek, UInt bir veri türüdür ve 32-bit işaretsiz bir tamsayıyı temsil eder. Ancak, bu, bir sınıfın örneği gibi düşünülmez. UInt sadece bir veri türüdür ve doğrudan kullanılabilir.
 
+3)"İşaretsiz" değişkenlerin harf gösterimi nasıldır?
 
-
-
+Bu işaretsiz değişkenlerin adları, içerdikleri bit sayısına ve işaretsiz olduğunu gösteren "U" harfini eklenir.
+UInt,UInt,UShort,ULong
 
 
 
