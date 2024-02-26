@@ -222,9 +222,10 @@ println(array1 === array3) // true, çünkü aynı bellek konumunu işaretediyor
 Toplama (+), Çıkarma (-), Çarpma (*), Bölme (/), Mod (%),
  Artırma (++) ,Azaltma (--)
 
+13) Sayısal değişkenlerde hangi karşılaştırma operatörleri kullanılabilir?
 
-
-
+Eşitlik (==),eşit değil (!=), büyüktür (>), küçüktür (<), büyük eşittir (>=),
+küçük eşittir (<=)
 
 
 
