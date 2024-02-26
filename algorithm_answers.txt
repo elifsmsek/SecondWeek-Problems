@@ -302,9 +302,9 @@ UInt,UInt,UShort,ULong
 
 	val a2 = 0xFFFF_FFFF_FFFFu : `0x` ifadesi ilk olarak 16`lik tabani temsil eder ve sona eklenn`u ` sayesinde de unsigned bur number oldugun anliyoruz. bu da 64-bitlik bir tamsayının maksimum değerini (2^64 - 1) ifade eder. Bundan dolayi nu bir `ULong` turudur.
 
+5) "İşaretsiz" "Long" harf gösterimi nasıl yapılır?
 
-
-
+ işaretsiz 64-bit tamsayıyı temsil etmek için ULong türünü kullanilir.
 
 
 
