@@ -182,3 +182,11 @@ Ornek:
          get() = _elementList
 }
 
+10) Sayısal değişkenlerde alt çizgi (underscore) nasıl kullanılır? Kotlin bunu nasıl yorumlar?
+
+Alt çizgiler, sayısal değerlerde sadece sayıların arasına yerleştirilir ve sayisal verileri adha anlasilir kilmak icin kullanilir.
+Ornek:
+	val oneMillion = 1_000_000
+
+Kotlin bu alt çizgileri sayıları yorumlamak için kullanır, ancak derleme sırasında bu alt çizgiler yok sayılır. Yani, alt çizgiler kodun okunabilirliğini artırırken, sayısal değerlerin kendisi üzerinde hiçbir etkisi yoktur.
+
