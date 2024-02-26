@@ -190,3 +190,22 @@ Ornek:
 
 Kotlin bu alt çizgileri sayıları yorumlamak için kullanır, ancak derleme sırasında bu alt çizgiler yok sayılır. Yani, alt çizgiler kodun okunabilirliğini artırırken, sayısal değerlerin kendisi üzerinde hiçbir etkisi yoktur.
 
+11) `==` ile neyi karşılaştırırız? `===` ile neyi karşılaştırırız?
+
+	`==` ile 2 nesnenin iclerindeki degeri kontrol ettirir.
+
+val str1 = "hello"
+val str2 = "hello"
+val str3 = "world"
+
+println(str1 == str2) // true, çünkü içerikleri aynı
+println(str1 == str3) // false, çünkü içerikleri farklı
+
+	`===` ile de bunlarin memorydeki(RAM`de ne kadarlik yer kapladiklarini ve hangi adreste yer kapladiklari) refereanslarini kontrol ettirir.
+
+val array1 = intArrayOf(1, 2, 3)
+val array2 = intArrayOf(1, 2, 3)
+val array3 = array1
+
+println(array1 === array2) // false, çünkü farklı bellek konumlarına sahipler
+println(array1 === array3) // true, çünkü aynı bellek konumunu işaretediyorlar
