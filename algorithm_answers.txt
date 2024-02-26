@@ -330,6 +330,38 @@ d-Veri işleme: Veri analizi veya işleme uygulamalarında, işaretsiz değişke
 	val pixelColor: UInt = 0xFF00FFu
 
 
+7) "İşaretsiz" değişkenlerle yapılan matematiksel işlemlerde, özellikle büyük sayılarla çalışırken karşılaşılabilecek taşma (overflow) ve taşma olmaması (underflow) durumları için Kotlin nasıl bir yönetim sağlar?
+
+  Taşma (Overflow) Durumu:
+
+Eğer bir işlem sonucu, ilgili işaretsiz veri türünün sınırlarını aşarsa, bu durumda taşma meydana gelir.
+Taşma durumunda, işlem sonucu beklenen değerden daha küçük veya daha büyük olabilir, bu da sonucun doğru olmamasına neden olur.
+
+  Taşma Olmaması (Underflow) Durumu:
+
+Eğer bir işlem sonucu, işaretsiz bir veri türünün minimum değerinin altında kalırsa, bu durumda taşma olmaması (underflow) meydana gelir.
+Underflow durumunda, işlem sonucu beklenen değerden daha küçük olur.
+
+	Yontemleri:
+
+Işlem sonuçlarını doğrudan kontrol etmek ve gerektiğinde taşma durumunu ele almasidir.
+
+Işlemlerin sonucunu kontrol etmek
+
+Gerektiğinde, işaretsiz değişkenlerin taşıyabileceği maksimum değeri aşmayacak şekilde işlemleri kontrol etmek için ekstra kodlama yapılabilir. Örneğin, işaretsiz değişkenlerle yapılan işlemler öncesinde, işlem sonucunun sınırlarını kontrol etmek için koşullar eklemek gibi.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
