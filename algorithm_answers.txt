@@ -285,9 +285,11 @@ C) İşaretsiz Sayılar
 Örnek: bir UInt değişkeni 0 ile 2^32 - 1 arasındaki pozitif tamsayı değerlerini temsil edebilirken, bir Int değişkeni -2^31 ile 2^31 - 1 arasındaki tam sayı değerlerini temsil edebilir.
 
 
+2) "İşaretsiz" değişkenler nasıl bir sınıf yapısında tutulurlar? Bu neden önemlidir?
 
+"Işaretsiz" (unsigned) değişkenler, Kotlin'de bir sınıf yapısı içinde doğrudan tutulmazlar. Bunun yerine, ilgili veri türlerinin (örneğin, UInt, UByte, UShort, ULong) önceden tanımlanmış veri türleri olduğunu belirtmek için kullanılırlar.
 
-
+	Örnek, UInt bir veri türüdür ve 32-bit işaretsiz bir tamsayıyı temsil eder. Ancak, bu, bir sınıfın örneği gibi düşünülmez. UInt sadece bir veri türüdür ve doğrudan kullanılabilir.
 
 
 
