@@ -209,3 +209,29 @@ val array3 = array1
 
 println(array1 === array2) // false, çünkü farklı bellek konumlarına sahipler
 println(array1 === array3) // true, çünkü aynı bellek konumunu işaretediyorlar
+
+
+12)`===` operatörü ile karşılaştırma yaparken Byte değer aralığı neden önemlidir? Kotlin bu aralığa göre neden özel bir davranış sergiler?
+
+`===` operatoru direktmen referans turlerini karsilastirir ve bununla birlikte,`Byte` turunde bircok deger -128 ile 127 arasinda ozel bir bellege alinir.Bu araliktaki her deger icin ayni bellek adresi paylasilir.
+	Ancak bu deger aralilari disindaki `byte` degerleri her zaman farkli bellek adreslerinde ayrilir.Bellekte farkli konmlarda saklanmasi gerektigi anlamina gelir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
