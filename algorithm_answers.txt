@@ -296,10 +296,11 @@ C) İşaretsiz Sayılar
 Bu işaretsiz değişkenlerin adları, içerdikleri bit sayısına ve işaretsiz olduğunu gösteren "U" harfini eklenir.
 UInt,UInt,UShort,ULong
 
+4)"`val a1 = 42u` ve `val a2 = 0xFFFF_FFFF_FFFFu`" değişkenlerin tipleri ne olur? Neden?
 
+	val a1 = 42u : 42u unsigend numbers anlamina gelmektedir.`UInt` olarak yorumlanir.
 
-
-
+	val a2 = 0xFFFF_FFFF_FFFFu : `0x` ifadesi ilk olarak 16`lik tabani temsil eder ve sona eklenn`u ` sayesinde de unsigned bur number oldugun anliyoruz. bu da 64-bitlik bir tamsayının maksimum değerini (2^64 - 1) ifade eder. Bundan dolayi nu bir `ULong` turudur.
 
 
 
