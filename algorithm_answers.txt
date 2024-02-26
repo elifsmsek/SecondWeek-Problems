@@ -249,11 +249,23 @@ Float: Boyutu 32 bit olup ondalıklı sayılar için kullanılır. Virgülün so
 
 Double: Boyutu 64 bit olup ondalıklı sayılar için kullanılır.Virgülün solu 53 bit sağı 11 bit’tir. 15–16 onlu basamaklıdır.
 
+15) Double ve Float değişkenler kullanılırken "yuvarlama" davranışı nasıldır? Bu nasıl değiştirilebilir?
 
+	Kotlin'de Android geliştirirken, yuvarlama işlemleri için standart Java kütüphanesindeki Math sınıfı veya Kotlin'in kendi kütüphanesi kullanılabilir.
 
+Örneğin, Math.round(), Math.floor(), ve Math.ceil() gibi yöntemlerle yuvarlama işlemleri gerçekleştirilebilir. Bu yöntemler, belirli bir yuvarlama davranışını sağlamak için kullanılabilir:
 
+Math.round(): Bir double veya float değeri en yakın tam sayıya yuvarlar.
+Math.floor(): Bir değeri aşağıya doğru yuvarlar.
+Math.ceil(): Bir değeri yukarıya doğru yuvarlar.
 
+	Ornek:
+val number1 = 4.5
+val number2 = 5.5
 
+val roundedNumber1 = Math.round(number1) // Sonuç: 5
+val floorNumber1 = Math.floor(number1) // Sonuç: 4
+val ceilNumber1 = Math.ceil(number1) // Sonuç: 5
 
 
 
