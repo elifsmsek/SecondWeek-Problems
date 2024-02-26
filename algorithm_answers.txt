@@ -267,6 +267,40 @@ val roundedNumber1 = Math.round(number1) // Sonuç: 5
 val floorNumber1 = Math.floor(number1) // Sonuç: 4
 val ceilNumber1 = Math.ceil(number1) // Sonuç: 5
 
+C) İşaretsiz Sayılar
+
+1)"İşaretsiz" (Unsigned) değişkenler ne demektir? İşaretli olanlarla aralarındaki fark nedir?
+
+"işaretsiz" (unsigned) değişkenler, yalnızca pozitif sayıları temsil edebilen veri türleridir.
+	Bunlar :  UInt, UByte, UShort ve ULong
+
+İşaretsiz değişkenlerle işaretli değişkenler arasındaki farklar şunlardır:
+
+İşaretsiz değişkenler sadece pozitif sayıları temsil ederken, işaretli değişkenler hem pozitif hem de negatif sayıları temsil edebilirler.
+
+İşaretsiz değişkenlerin aralığı, işaretli değişkenlerden biraz daha büyüktür, çünkü işaretsiz değişkenler negatif değerleri temsil etmezler ve bu nedenle sıfırdan başlayarak daha fazla pozitif değeri kapsarlar.
+
+İşaretsiz değişkenlerde işaret biti yoktur. İşaretli değişkenlerde ise en sol taraftaki bit işareti olarak kullanılır.
+
+Örnek: bir UInt değişkeni 0 ile 2^32 - 1 arasındaki pozitif tamsayı değerlerini temsil edebilirken, bir Int değişkeni -2^31 ile 2^31 - 1 arasındaki tam sayı değerlerini temsil edebilir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
